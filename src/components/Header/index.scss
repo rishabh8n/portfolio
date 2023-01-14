@@ -1,0 +1,64 @@
+$primary-color: #03ABAA;
+.nav-bar{
+    height: 12vh;
+    min-height: 60px;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 2em 0 2em;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+        position: relative;
+    }
+    .box{
+        background-color: black;
+        height: 10vh;
+        min-height: 50px;
+        aspect-ratio: 1;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-weight: 700;
+        box-shadow: 5px 1.5px 5px rgba(0, 0, 0, 0.575) ;
+        transition: all 0.2s ease;
+        opacity: 0;
+        animation: bounceIn 1s forwards;
+        animation-delay: 0.3s;
+    }
+    nav{
+        font-size: 2rem;
+        display: flex;
+        gap: 16px;
+        font-weight: 600;
+        a:hover{
+            color: #03ABAA;
+            
+            transition: all 0.1s ease;
+        }
+        .active{
+            color: $primary-color;
+        }
+    }
+    .contact-form-btn{
+        background-color: #03abab80;
+        button{
+            border: 3px solid black;
+            padding: 0.5em 1em;
+            font-size: 1.5rem;
+            font-weight: 600;
+            background-color: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            transform: rotateZ(-15deg) scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+$primary-color: #03ABAA;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
