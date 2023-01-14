@@ -5,6 +5,7 @@ import rps from "../../assets/rps.PNG";
 import userDash from "../../assets/user-dash.PNG";
 import workboard from "../../assets/workboard.PNG";
 import netflix from "../../assets/netflix.PNG";
+import portfolio from "../../assets/portfolio.PNG";
 import "./index.scss";
 
 function Projects() {
@@ -19,9 +20,9 @@ function Projects() {
     <div className="project-container">
       <ProjectCard
         title="Portfolio"
-        img={workboard}
-        code="https://github.com/rishabh8n/workboard"
-        demo="https://workboard.vercel.app"
+        img={portfolio}
+        code="https://github.com/rishabh8n/portfolio"
+        demo="https://rishabh-chi.vercel.app"
       />
       <ProjectCard
         title="Netflix(Clone)"
