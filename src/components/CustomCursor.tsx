@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 
 const CustomCursor = () => {
-  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+  // const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
   const [mouseState, setMouseState] = useState("out");
   const ref = useRef<HTMLDivElement>(null);
   const refOuterCircle = useRef<HTMLDivElement>(null);
   useEffect(() => {
     document.addEventListener("mousemove", (e) => {
       const { clientX: x, clientY: y } = e;
-      setCursorPos({ x, y });
+      // setCursorPos({ x, y });
       if (ref.current) {
         ref.current.style.left = `${x}px`;
         ref.current.style.top = `${y}px`;
