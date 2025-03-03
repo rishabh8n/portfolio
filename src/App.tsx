@@ -65,15 +65,15 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="h-screen flex flex-col items-end bg-[#fdfffe]">
-            <p className="p-5 md:p-10 md:mr-20 lg:mr-32 font-semibold text-xl md:text-4xl md:w-8/12 lg:w-7/12 mt-20">
+          <div className="flex flex-col items-end bg-[#fdfffe]">
+            <p className="p-5 md:p-10 md:mr-30 lg:mr-48 font-semibold text-xl md:text-4xl md:w-7/12 lg:w-6/12 mt-20">
               A Full Stack Developer with expertise in building dynamic and
               scalable web applications. With a strong command of both front-end
               and back-end technologies, I specialize in creating seamless user
               experiences and efficient server-side logic. My stack includes
               MERN (MongoDB, Express.js, React, Node.js).
             </p>
-            <p className="lg:w-4/12 md:w-5/12 mt-3 md:mr-16 lg:mr-24">
+            <p className="lg:w-4/12 md:w-5/12 md:mr-28 lg:mr-40 mb-10 p-5">
               I am Rishabh Raj, a passionate and aspiring Full Stack Developer
               currently pursuing my Master's in Computer Applications (MCA).
               With a strong foundation in both front-end and back-end
@@ -85,6 +85,7 @@ function App() {
               that share my passion for technology and creativity.
             </p>
           </div>
+          {/* <div className="h-screen bg-[#eee5da]"></div> */}
         </motion.div>
         {/* </SmoothScroll> */}
       </div>
